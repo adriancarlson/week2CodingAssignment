@@ -28,7 +28,6 @@ for (i = 1; i <= 100; i++) {
 }
 // d.	A for loop that prints every number from 0 to 100, but if the number is divisible by 3, it prints “Hello” instead of the number, and if the number is divisible by 5, it prints “World” instead of the number, and if it is divisible by both 3 and 5, it prints “HelloWorld” instead of the number.
 
-
 for (i = 0; i <= 100; i++) {
 	if (i % 3 == 0 && i % 5 == 0) {
 		console.log('HelloWorld');
